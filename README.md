@@ -1,1 +1,1 @@
-# Default starter for Gridsome
+# My Blog by Gridsome
