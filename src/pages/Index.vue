@@ -6,6 +6,23 @@
   </Layout>
 </template>
 
+<page-query>
+query {
+  allPost {
+    totalCount
+    edges {
+      node {
+        id
+        title
+        slug
+        path
+        date
+      }
+    }
+  }
+}
+</page-query>
+
 <script>
 export default {}
 </script>

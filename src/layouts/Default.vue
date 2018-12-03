@@ -1,6 +1,6 @@
 <template>
   <div class="layout">
-    <header class="header">
+    <header class="header" v-if="$route.name !== 'post'">
       <strong>
         <g-link :to="{ name: 'home' }">Gridsome</g-link>
       </strong>
@@ -12,6 +12,14 @@
     <slot/>
   </div>
 </template>
+
+script>
+export default {
+  created() {
+    console.log(this)
+  }
+}
+</script>
 
 <style>
 body {
