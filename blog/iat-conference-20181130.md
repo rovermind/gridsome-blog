@@ -2,7 +2,7 @@
 title: "2018 정보접근성 컨퍼런스 후기"
 date: 2018-12-03 18:35:34
 description: "한국정보화진흥원에서 주최한 2018 정보접근성 기술 컨퍼런스 후기입니다"
-image: ""
+image: "https://cfile1.onoffmix.com/images/event/159266/s"
 slug: IAT-Conference-20181130
 ---
 
@@ -128,7 +128,7 @@ Reflow와 Non-text Contrast
 * 프론트 개발 환경. 상당히 복잡해짐. client와 server 구분, assets, layouts, middleware, page ..
 * 인증이나 라우트같이 기존에 백에서 처리하던 일도 이제는 프론트에서 처리. 기존의 백엔드 개발 환경과 유사하게 변경됨 -> ~~풀스택 개발자 구해요?~~
 
-*일반적으로 부르는 퍼블리셔들과 달리 기존 개발자, 보통 백 개발자들은 접근성이나 사용성, 검색엔진 최적화에 대한 지식이 거의 없다는 것.. -> 퍼블리셔 기반의 프론트엔드 개발자의 경쟁력*
+*일반적으로 부르는 퍼블리셔들과 달리 기존 개발자, 보통 백 개발자들은 접근성이나 사용성, 검색엔진 최적화에 대한 지식이 거의 없다는 것.. -> 퍼블리셔 기반의 프론트엔드 개발자가 가질 수 있는 경쟁력*
 
 ### 싱글 페이지 어플리케이션
 * SPA로 개발할 경우 검색의 최적화 문제, 접근성에 취약함
@@ -147,7 +147,7 @@ Reflow와 Non-text Contrast
 * 뭐 이리 할게 많아요? 그렇다면 이 모든 것들을 한꺼번에 제공하는 `Nuxt.js` 를 쓰면 됩니다. [(예시)](https://q4n3ylknl4.sse.codesandbox.io/)
 
 ### Node.js가 아닌 개발 환경에서의 대응
-* 이미 구축된 개발환경이 비 Node 라서 이관하기에 여의치 않다면 [(사례)][https://www.slideshare.net/wan2land/vue-ssr-vs-prerender]
+* 이미 구축된 개발환경이 비 Node 라서 이관하기에 여의치 않다면 [(사례)](https://www.slideshare.net/wan2land/vue-ssr-vs-prerender)
 * [Prerender 미들웨어](https://prerender.io/) 쓰면 됩니다
 
 더 궁금하면? [가이드북](http://yamoo9.gitbook.io/vue-a11y-seo) 참고하세요
