@@ -1,7 +1,6 @@
 module.exports = {
   siteName: "rororo's blog",
   siteUrl: "https://rororo.netlify.com",
-  titleTemplate: "%s | rororo's blog",
   // siteDescription: "Run blog by Gridsome and Vue.js",
   // icon: "",
   transformers: {
