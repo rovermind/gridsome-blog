@@ -21,10 +21,12 @@ import config from '../.temp/config';
 export default {
   metaInfo() {
     return {
+      title: this.$page.post.title,
+      titleTemplate: "%s | rororo's blog",
       meta: [
         // OpenGraph data (Most widely used)
         { property: 'og:title', content: this.$page.post.title },
-        { property: 'og:site_name', content: config.titleTemplate },
+        { property: 'og:site_name', content: config.siteName },
         // The list of types is available here: http://ogp.me/#types
         { property: 'og:type', content: 'website' },
         // Should the the same as your canonical link, see below.
@@ -35,8 +37,8 @@ export default {
 
         // Twitter card
         { name: 'twitter:card', content: 'summary' },
-        { name: 'twitter:site', content: `${config.siteUrl}${this.$route.path}` },
         { name: 'twitter:title', content: this.$page.post.title },
+        { name: 'twitter:image', content: this.$page.post.image },
         { name: 'twitter:description', content: this.$page.post.image },
 
         // Google / Schema.org markup:
